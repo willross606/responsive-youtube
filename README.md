@@ -20,7 +20,7 @@ A jQuery plugin to make all your Youtube embeds responsive, regardless of their 
 ...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started)).
 
 ## How it works
-On pageload the plugin identifies any Youtube embeds on the page and then queries the Youtube Data API to find the correct aspect ratio of each video. It then wraps the Youtube iFrame in a correcly-proportioned <div> and injects a small amount of CSS into the page which makes the iFrame match the dimensions of the <div>.
+On pageload the plugin identifies any Youtube embeds on the page and then queries the Youtube Data API to find the correct aspect ratio of each video. It then wraps the Youtube iFrame in a correcly-proportioned DIV and injects a small amount of CSS into the page which makes the iFrame match the dimensions of the DIV.
     
 ## FAQs
 - Why not just use [fitvids.js](http://fitvidsjs.com/)?
