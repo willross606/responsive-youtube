@@ -1,5 +1,5 @@
 # responsive-youtube
-A jQuery plugin to make all your Youtube embeds responsive
+A jQuery plugin to make all your Youtube embeds responsive, regardless of their aspect ratio.
 
 ## Required
 * jQuery 2.0+
@@ -17,4 +17,11 @@ A jQuery plugin to make all your Youtube embeds responsive
 
 ...
 
-...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started))
+...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started)).
+
+## How it works
+On pageload the plugin identifies any Youtube embeds on the page and then queries the Youtube Data API to find the correct aspect ratio of each video. It then wraps the Youtube iFrame in a correcly-proportioned <div> and injects a small amount of CSS into the page which makes the iFrame match the dimensions of the <div>.
+    
+## FAQs
+- Why not just use [fitvids.js](http://fitvidsjs.com/)?
+Fitvids makes videos responsive, but assumes that all videos are in the same aspect ratio. This means that videos in non-16:9 aspect ratios (such as videos shot in portrait on a phone) have black bars added around them to make them fit the 16:9 size. If you are sure all the videos you embed will be 16:9, then you should definitely use fitvid.js instead. If you want to banish the black bars from non-standard Youtube videos then this plugin is here to help.
