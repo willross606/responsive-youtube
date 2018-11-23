@@ -17,4 +17,4 @@ A jQuery plugin to make all your Youtube embeds responsive
 
 ...
 
-...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started)
+...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started))
