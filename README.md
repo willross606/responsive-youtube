@@ -9,12 +9,12 @@ A jQuery plugin to make all your Youtube embeds responsive
 2. Add jQuery and responsive-youtube.js to your page.
 3. Add the following to your page:
 
-...javascript
+...
 
     $(function(){
-      $('body').responsive({key: 'your-youtube-api-key'});
+      $('body').responsive({key: 'your-api-key'});
      });
 
 ...
 
-...where 'your-youtube-api-key' is the API key you receive by signing up for a 
+...where 'your-api-key' is the Youtube Data API key you (you can get one free by [signing up here](https://developers.google.com/youtube/v3/getting-started)
